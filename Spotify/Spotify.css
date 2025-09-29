@@ -1,0 +1,300 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+nav{
+    border: 2px solid;
+    background-color: black;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+nav div{
+    width: 450px;
+    /* border: 2px solid; */
+    align-self: center;
+}
+nav svg{
+    width: 25%;
+    fill: white;
+}
+
+nav div+div{
+    /* border: 2px solid; */
+    width: 40%;
+    font-weight: bolder;
+    
+}
+ol{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: white;
+}
+
+#d1:hover,#d2:hover,#d3:hover,#d5:hover,#d6:hover{
+    color: lightgreen;
+}
+main{
+    height: 530px;
+    width: 100%;
+    color: white;
+    background: url(https://wwwmarketing.scdn.co/static/images/free/desktop-hero.jpeg) center 40% / 100% no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+main>div{
+    /* border: 2px solid white; */
+    height: 450px;
+    width:50%;
+    align-content: flex-end;
+}
+main button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+main h1{
+    /* border: 2px solid red; */
+ font-size: 64px;
+ text-align: center;
+ font-family: SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);;
+ letter-spacing: -3px;
+}
+
+#sec1 h1{
+/* border: 2px solid red; */
+font-size: 39px;
+text-align: center;
+font-family: var(--encore-title-font-stack);
+}
+
+#sec1{
+    /* border: 2px solid; */
+    height: 520px;
+}
+#sec1 aside{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 470px;
+    text-align: center;
+    gap: 30px;
+}
+#sec1 div{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 19%;
+    align-content: center;
+}
+#sec1 aside p{
+    line-height: 25px;
+}
+#sec2 div{
+    /* border:2px solid; */
+    height: 450px;
+    background: url(https://wwwmarketing.scdn.co/static/images/free/desktop_benefit.png) center bottom no-repeat rgb(30, 215, 96);
+}
+#sec2 h1{
+    /* border: 2px solid red; */
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+#sec3{
+    /* border: 2px solid; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+   /* box-sizing: border-box; */
+}
+#sec3 h1{
+text-align: center;
+font-size:40px ;
+
+}
+#sec3 aside{
+   
+    height: 350px;
+    width: 80%;
+    /* gap: 60%; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+#sec3 summary{
+    list-style: none;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+    display: list-item;
+}
+#sec3 summary:hover{
+text-decoration: underline;
+cursor: pointer;
+background-color: #f5f5f5;
+}
+#sec3 details{
+    border-bottom: 1px solid lightgrey;
+    /* box-sizing: border-box; */
+}
+#sec3 font{
+    color: green;
+    font-weight: 600;
+}
+#sec3 p{
+    padding-left: 25px;
+}
+#sec3 span{
+    float: right;
+}
+
+#sec4{
+    height: 530px;
+    width: 100%;
+    color: white;
+    background: url(https://wwwmarketing.scdn.co/static/images/free/desktop-closing.jpeg) center 35% / cover;    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#sec4>div{
+    /* border: 2px solid white; */
+    height: 450px;
+    width:50%;
+    align-content: flex-end;
+}
+#sec4 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+#sec4 h1{
+    /* border: 2px solid red; */
+ font-size: 64px;
+ text-align: center;
+ font-family: SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);;
+ letter-spacing: -3px;
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 520px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+    gap: 20%;
+}
+footer svg{
+    height: 35px;
+    fill: white;
+}
+footer section{
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 80%;
+    gap:40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section ol{
+       list-style: none;
+       /* border: 2px solid; */
+   line-height: 2px;
+   display: flex;
+   flex-direction: column;
+    text-transform: capitalize;
+
+}
+footer section ul{
+    /* border: 2px solid; */
+    display: flex;
+    width: 130%;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 20px;   
+   
+}
+footer section ul>i{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:#2e2e31 ;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+}
+
+footer ol>li:hover{
+   color: green;
+   cursor: pointer;
+
+}
+
+footer section ol>li:first-child{
+color:rgba(213, 211,211, 0.548);
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+
+footer aside ol>li{
+    font-size: 13px;
+    color: rgba(211, 211, 211, 0.548);
+}
+ footer aside{
+     width:65%;
+    height: 60px;
+       /* border: 2px solid red; */
+    border: flex;
+    justify-content: space-between;
+}
+footer aside ol{
+    /* border: 2px solid green; */
+    list-style: none;
+    display: flex;
+    width:550px;
+    justify-content: space-between;
+  
+}
+footer aside ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+flex-direction: column;
+/* border: 2px solid red; */
+height: 50px;
+
+}
+footer aside ul>li{
+    display: flex;
+    justify-content: flex-end;
+     font-size: 13px;
+    color: rgba(211, 211, 211, 0.548);
+}
+footer aside li:hover{
+color: green;
+cursor: pointer;
+}
