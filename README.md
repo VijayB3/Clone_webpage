@@ -7,7 +7,7 @@ Instead of only watching tutorials, I recreated existing products to gain practi
 
 ---
 
-## 📖 About This Repository
+## 📖 About This Repository.
 
 When starting frontend development, writing code from scratch can feel easy — but building something that looks like a real product is challenging.
 
