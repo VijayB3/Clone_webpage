@@ -38,7 +38,7 @@ This helped me learn:
 
 The repository currently contains the following clones:
 
-### 1. Conference Room
+### 1. Conference Room.
 A landing page style interface focusing on layout alignment, content grouping, and clean section separation.
 
 ### 2. Magicpin
