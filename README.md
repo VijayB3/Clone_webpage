@@ -23,7 +23,7 @@ This helped me learn:
 
 ---
 
-## 🎯 Goals of This Practice
+## 🎯 Goals of This Practice.
 
 ✔ Improve HTML structure  
 ✔ Master CSS styling  
