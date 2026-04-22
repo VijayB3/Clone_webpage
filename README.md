@@ -34,7 +34,7 @@ This helped me learn:
 
 ---
 
-## 🚀 Projects Included.
+## 🚀 Projects Included
 
 The repository currently contains the following clones:
 
