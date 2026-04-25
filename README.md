@@ -95,7 +95,7 @@ Clone_webpage/
 └── README.md
 
 
-Each folder is an independent mini-project.
+Each folder is an independent mini-project
 
 ---
 
