@@ -173,7 +173,7 @@ Next, I plan to:
 
 ## 🔒 Disclaimer
 
-These clones are created only for **educational purposes**.  
+These clones are created only for **educational purposes**
 All original designs, logos, and brand assets belong to their respective companies.
 
 ---
